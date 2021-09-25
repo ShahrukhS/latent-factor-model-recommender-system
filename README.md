@@ -1,4 +1,8 @@
 # latent-factor-model-recommender-system
-Recommender system with factorized user ratings of products in user and item feature vectors
+In this project, I have implemented a Collaborative Filtering Algorithm on anonymous ratings from users for 100 online jokes. The dataset is adopted from [[1]](#1).
 
-Recommender System uses the dataset from ... for https://goldberg.berkeley.edu/jester-data/
+The Recommender System factorizes user preferences and joke features into 2 Latent Factors to build latent vectors and consequently uses them to make predictions for unrated jokes.
+
+## References
+<a id="1">[1]</a>
+Goldberg, K., Roeder, T., Gupta, D. et al. Eigentaste: A Constant Time Collaborative Filtering Algorithm. *Information Retrieval* **4(2)**, 133–151 (2001). https://doi.org/10.1023/A:1011419012209
